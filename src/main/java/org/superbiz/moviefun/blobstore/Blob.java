@@ -1,6 +1,8 @@
 package org.superbiz.moviefun.blobstore;
 
+import javax.transaction.Transactional;
 import java.io.InputStream;
+
 
 public class Blob {
     public final String name;
